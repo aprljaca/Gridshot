@@ -1,0 +1,40 @@
+  .grid-container {
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    margin-left: 40%;
+    margin-top: 9%;
+  }
+
+  .btn {
+    display:block;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+
+  body {
+    background-color: black;
+   }
+
+  .kontenjer {
+    padding: 9px;
+    width: 150px;
+    height: 120px;
+    background-color: azure;
+    border: 1px solid red;
+  }
+
+  .pocetnoDugme {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 90px;
+  }
+
+  #crvenoDugme {
+    color: red;
+  }
